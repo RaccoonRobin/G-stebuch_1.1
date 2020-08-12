@@ -1,0 +1,168 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Staatliches', cursive;
+}
+
+.mainheader{
+    background-color: black;
+    padding: 2vw 2vh;
+    color: white; transition: .2s;
+}
+
+.mainheader:hover{
+    background-color: rgba(0,0,0,.85);
+
+}
+
+.header1{
+    font-size: 5vh;
+}
+
+.header2{
+    font-size: 3vh;    
+}
+
+.header2 span{
+    border: 0;
+    border-top: 1px white dashed;
+    padding: 0 1vw;
+}
+
+.starttext{
+    font-size: 2vh;
+    padding: 2vh 2vw;
+    background-color: white;
+}
+
+.starttext span{
+    margin: 2vh 2vw 2vh 0;
+    padding: 1vh 1vw;
+    background-color: black;
+    color: white;
+    transition: .2s;
+}
+
+.entrys{
+    margin:2vh 2vw;
+
+}
+
+.entry{
+    margin: 0;
+    margin-bottom: 1vh;
+    border: 1px black solid;
+    padding: 1vh 1vw;
+}
+
+.title {
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.desc {
+    text-align: right;
+    font-style: italic;
+    color: rgba(0,0,0,.5)
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 4vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%; 
+}
+
+footer:hoover{
+    background-color: rgba(0,0,0,.85);
+}
+
+.writebtn{
+    background-color: black;
+    position: absolute;
+    bottom: 7.5vh;
+    right: 2.5vw;
+    border-radius: 50%;
+    color: white;
+    padding: 1.5vh 1vw;
+    transition: .2s;
+    border: 1px black solid;
+}
+
+.writebtn:hover{
+    color: black;
+    background-color: white;
+}
+
+.writebtn a span{
+    text-decoration: none;
+}
+
+.writeform{
+    margin: 2vh 2vw;
+}
+
+.writeinput{
+    margin: 0;
+    margin-bottom: 1vh;
+    border: 1px black solid;
+    padding: 1vh .5vw;
+    width: 98%;
+    font-size: 1.7vh;
+}
+
+.writeta{
+    margin: 0;
+    margin-bottom: 1vh;
+    border: 1px black solid;
+    padding: 1vh .5vw;
+    width: 98%;
+    height: 30vh;
+    font-size: 1.7vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.writeformbtnbar{
+    width: 98%;
+    height: 2.5vh;
+    white-space:normal;
+}
+
+.writeformbtn{
+    width: 33%;
+    margin: 0;
+    height: 3.5vh;
+    border:none;
+    display:inline-block;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75vh;
+}
+
+.writedel{
+    background-color: red;
+    color: white;
+    margin-right: 2vw;
+}
+
+.writesub{
+    background-color: green;
+    color: white;
+    margin-left: 2vw;
+}
+
+.savedone{
+    text-align: center;
+    margin: 0;
+    margin-top: 5vh;
+}
